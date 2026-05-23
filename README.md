@@ -1,10 +1,8 @@
 # Malaysia Payment Gateway Skills
 
 ![Made in Malaysia](https://img.shields.io/badge/Made%20in-Malaysia-red)
-![works with](https://img.shields.io/badge/works%20with-Codex%20%7C%20Claude%20%7C%20Cursor%20%7C%20Windsurf-blue?style=flat-square)
 ![Agent Skills](https://img.shields.io/badge/Agent-Skills-blue)
 ![Payment Gateway](https://img.shields.io/badge/Payment-Gateway-green)
-![Security First](https://img.shields.io/badge/Security-First-orange)
 
 Agent skills for implementing Malaysian payment gateway integrations with server-side checkout, verified webhooks, and idempotent settlement.
 
