@@ -1,9 +1,10 @@
-# 🇲🇾 Malaysia Payment Gateway Skills
+# Malaysia Payment Gateway Skills
 
-![Made in Malaysia](https://img.shields.io/badge/Made%20in-Malaysia-cc0001?style=for-the-badge)
-![Agent Skills](https://img.shields.io/badge/Agent-Skills-111827?style=for-the-badge)
-![Payment Gateway](https://img.shields.io/badge/Payment-Gateway-0f766e?style=for-the-badge)
-![Security First](https://img.shields.io/badge/Security-First-f59e0b?style=for-the-badge)
+[![Made in Malaysia](https://img.shields.io/badge/Made%20in-Malaysia-cc0001?style=for-the-badge&labelColor=010066)](https://github.com/topics/malaysia)
+[![Works with Codex](https://img.shields.io/badge/Works%20with-Codex-111827?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/codex/)
+[![Agent Skills](https://img.shields.io/badge/Agent-Skills-0f766e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/afu-it/malaysia-payment-gateway)
+[![Security First](https://img.shields.io/badge/Security-First-f59e0b?style=for-the-badge&logo=letsencrypt&logoColor=white)](#production-checklist)
+[![Payment Gateway](https://img.shields.io/badge/Payment-Gateway-2563eb?style=for-the-badge&logo=stripe&logoColor=white)](#skills)
 
 Agent skills for implementing Malaysian payment gateway integrations with server-side checkout, verified webhooks, and idempotent settlement.
 
@@ -11,14 +12,14 @@ Made from Malaysia for developers building FPX, DuitNow QR, card, e-wallet, and 
 
 ## Skills
 
-| Icon | Skill | Use for |
-| --- | --- | --- |
-| 🧭 | `malaysia-payment-gateway` | Gateway-agnostic planning, review, and security checklist |
-| 💳 | `setup-chip` | CHIP Collect checkout, purchases, callbacks, refunds, payment methods |
-| 🏦 | `setup-curlec` | Curlec/Razorpay Orders API, Checkout.js, callbacks, webhooks |
-| ⚡ | `setup-xendit` | Xendit Payment Sessions, Payment Requests, webhooks, xenPlatform |
-| 🧾 | `setup-bayarcash` | Bayarcash API v2/v3, payment intents, callbacks, checksums |
-| 🔗 | `setup-bcl` | BCL Pay, Payment Link, QR Terminal, Forms, Bayarcash-linked setup |
+| Skill | Use for |
+| --- | --- |
+| `malaysia-payment-gateway` | Gateway-agnostic planning, review, and security checklist |
+| `setup-chip` | CHIP Collect checkout, purchases, callbacks, refunds, payment methods |
+| `setup-curlec` | Curlec/Razorpay Orders API, Checkout.js, callbacks, webhooks |
+| `setup-xendit` | Xendit Payment Sessions, Payment Requests, webhooks, xenPlatform |
+| `setup-bayarcash` | Bayarcash API v2/v3, payment intents, callbacks, checksums |
+| `setup-bcl` | BCL Pay, Payment Link, QR Terminal, Forms, Bayarcash-linked setup |
 
 ## Install
 
