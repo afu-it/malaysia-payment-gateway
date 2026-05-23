@@ -1,6 +1,6 @@
 ---
-name: curlec-payment-gateway
-description: Build, debug, review, and explain Razorpay Curlec payment gateway integrations using Curlec and shared Razorpay documentation. Use when working with Curlec/Razorpay Standard Checkout, FPX or redirect payment methods, Orders API, Payments API, Refunds API, Payment Links, Basic Auth API keys, checkout.js options, callback_url, payment signature verification, webhook setup, webhook HMAC validation, sandbox/test mode, payment capture, payment status reconciliation, or Malaysia payment gateway go-live checks.
+name: setup-curlec
+description: Set up, build, debug, review, and explain Razorpay Curlec payment gateway integrations using Curlec and shared Razorpay documentation. Use when working with Curlec/Razorpay Standard Checkout, FPX or redirect payment methods, Orders API, Payments API, Refunds API, Payment Links, Basic Auth API keys, checkout.js options, callback_url, payment signature verification, webhook setup, webhook HMAC validation, sandbox/test mode, payment capture, payment status reconciliation, or Malaysia payment gateway go-live checks.
 ---
 
 # Curlec Payment Gateway

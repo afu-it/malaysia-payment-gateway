@@ -1,6 +1,6 @@
 ---
-name: chip-collect-api
-description: Build, debug, and explain CHIP Collect payment integrations using the official CHIP Collect API documentation. Use when working with CHIP Collect purchases, checkout URLs, payment links, direct post, FPX, DuitNow QR, cards, e-wallets, callbacks, webhooks, signature verification, clients, recurring tokens, subscriptions, pre-authorization, refunds, captures, releases, payment methods, statements, account balance, account turnover, API keys, Brand ID, or CHIP Collect endpoint schemas.
+name: setup-chip
+description: Set up, build, debug, and explain CHIP Collect payment integrations using the official CHIP Collect API documentation. Use when working with CHIP Collect purchases, checkout URLs, payment links, direct post, FPX, DuitNow QR, cards, e-wallets, callbacks, webhooks, signature verification, clients, recurring tokens, subscriptions, pre-authorization, refunds, captures, releases, payment methods, statements, account balance, account turnover, API keys, Brand ID, or CHIP Collect endpoint schemas.
 ---
 
 # CHIP Collect API

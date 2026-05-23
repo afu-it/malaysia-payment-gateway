@@ -1,0 +1,260 @@
+# 🇲🇾 Malaysia Payment Gateway Skills
+
+![Made in Malaysia](https://img.shields.io/badge/Made%20in-Malaysia-cc0001?style=for-the-badge)
+![Agent Skills](https://img.shields.io/badge/Agent-Skills-111827?style=for-the-badge)
+![Payment Gateway](https://img.shields.io/badge/Payment-Gateway-0f766e?style=for-the-badge)
+![Security First](https://img.shields.io/badge/Security-First-f59e0b?style=for-the-badge)
+
+Agent skills for implementing Malaysian payment gateway integrations with server-side checkout, verified webhooks, and idempotent settlement.
+
+Made from Malaysia for developers building FPX, DuitNow QR, card, e-wallet, and local payment flows.
+
+## Skills
+
+| Icon | Skill | Use for |
+| --- | --- |
+| 🧭 | `malaysia-payment-gateway` | Gateway-agnostic planning, review, and security checklist |
+| 💳 | `setup-chip` | CHIP Collect checkout, purchases, callbacks, refunds, payment methods |
+| 🏦 | `setup-curlec` | Curlec/Razorpay Orders API, Checkout.js, callbacks, webhooks |
+| ⚡ | `setup-xendit` | Xendit Payment Sessions, Payment Requests, webhooks, xenPlatform |
+| 🧾 | `setup-bayarcash` | Bayarcash API v2/v3, payment intents, callbacks, checksums |
+| 🔗 | `setup-bcl` | BCL Pay, Payment Link, QR Terminal, Forms, Bayarcash-linked setup |
+
+## Install
+
+Before installing:
+
+1. Check current installed version.
+2. Verify your agent supports Skills.
+3. Update npm if needed.
+
+Install from this repository:
+
+```bash
+npx skills@latest add afu-it/malaysia-payment-gateway
+```
+
+The CLI can show available skills and let you select them interactively.
+
+List available skills:
+
+```bash
+npx skills@latest add afu-it/malaysia-payment-gateway --list
+```
+
+Install all skills:
+
+```bash
+npx skills@latest add afu-it/malaysia-payment-gateway --all
+```
+
+Install one skill:
+
+```bash
+npx skills@latest add afu-it/malaysia-payment-gateway --skill setup-curlec
+```
+
+Install globally:
+
+```bash
+npx skills@latest add afu-it/malaysia-payment-gateway -g
+```
+
+Verify CLI version:
+
+```bash
+npx skills@latest --version
+```
+
+## Recommended Setup
+
+1. Install the overview skill first:
+
+```bash
+npx skills@latest add afu-it/malaysia-payment-gateway --skill malaysia-payment-gateway
+```
+
+2. Install the provider you need:
+
+```bash
+npx skills@latest add afu-it/malaysia-payment-gateway --skill setup-curlec
+```
+
+3. Ask your agent to inspect your project before coding.
+
+4. Ask your agent to implement checkout, webhook verification, settlement, tests, and docs together.
+
+## How To Ask Your Agent
+
+Use the skill name in your prompt:
+
+```text
+Use $malaysia-payment-gateway to review my app payment flow and tell me what is missing before production.
+```
+
+```text
+Use $setup-curlec to implement Curlec checkout, callback verification, webhook settlement, and tests in this Next.js project.
+```
+
+```text
+Use $setup-chip to add CHIP Collect checkout and webhook handling. Do not unlock access from redirect alone.
+```
+
+```text
+Use $setup-xendit to implement hosted checkout with Xendit Payment Sessions and idempotent webhook settlement.
+```
+
+```text
+Use $setup-bayarcash to integrate Bayarcash payments with checksum/callback verification.
+```
+
+```text
+Use $setup-bcl to set up BCL Pay and explain which parts are BCL-owned versus Bayarcash-linked.
+```
+
+## Agent Rules
+
+Ask the agent to:
+
+- Read existing code before adding new files.
+- Keep gateway secrets server-side.
+- Create a local pending payment before provider checkout.
+- Verify webhook/callback signatures.
+- Re-fetch payment state from the provider when possible.
+- Match provider, gateway reference, amount, currency, and local payment status before marking paid.
+- Make settlement idempotent.
+- Add tests for invalid signatures, duplicate events, wrong amount/currency, and successful settlement.
+
+## Production Checklist
+
+- Required environment variables are documented.
+- Database migrations are included.
+- Webhook URLs are configured in sandbox and live dashboards.
+- Sandbox payment succeeds.
+- Duplicate webhook replay is harmless.
+- Fake success redirect cannot unlock paid access.
+- Live and sandbox keys are separated.
+
+## Contribute A New Gateway
+
+Contributions are welcome. Use one folder per skill.
+
+### Step 1: Pick a skill name
+
+Use action-style names:
+
+```text
+setup-toyyibpay
+setup-senangpay
+setup-stripe-malaysia
+```
+
+Rules:
+
+- Lowercase only.
+- Use hyphens.
+- Keep it short.
+- Folder name must match `name:` in `SKILL.md`.
+
+### Step 2: Create the folder
+
+```bash
+mkdir -p setup-yourgateway/references setup-yourgateway/agents
+```
+
+### Step 3: Add `SKILL.md`
+
+Minimum shape:
+
+```markdown
+---
+name: setup-yourgateway
+description: Set up, build, debug, review, and explain YourGateway payment integrations. Use when working with checkout, payment links, callbacks, webhooks, signatures, refunds, sandbox/live setup, and payment settlement for YourGateway.
+---
+
+# Setup YourGateway
+
+Use this skill for YourGateway integration work.
+
+## Source
+
+Read `references/yourgateway.md` before giving factual API guidance or writing integration code.
+
+## Core Workflow
+
+1. Identify environment: sandbox or production.
+2. Create local pending payment first.
+3. Create checkout/session server-side.
+4. Verify callback/webhook signature.
+5. Re-fetch payment state from provider when possible.
+6. Settle idempotently after amount, currency, provider, and reference match.
+```
+
+### Step 4: Add `agents/openai.yaml`
+
+```yaml
+interface:
+  display_name: "Setup YourGateway"
+  short_description: "Set up YourGateway payments"
+  default_prompt: "Use $setup-yourgateway to integrate YourGateway payments."
+```
+
+### Step 5: Add references
+
+Create:
+
+```text
+setup-yourgateway/references/yourgateway.md
+```
+
+Include:
+
+- Official docs URLs.
+- Environment base URLs.
+- Auth method.
+- Checkout/session endpoint.
+- Webhook/callback signature rules.
+- Amount unit rules.
+- Sandbox test notes.
+- Common failure fixes.
+
+Do not include real API keys, tokens, merchant secrets, or private customer data.
+
+### Step 6: Validate
+
+Run validator:
+
+```bash
+python3 /home/user/.codex/skills/.system/skill-creator/scripts/quick_validate.py setup-yourgateway
+```
+
+If you do not have that validator, install the latest Skills CLI and at minimum verify:
+
+```bash
+npx skills@latest --version
+```
+
+### Step 7: Test install locally
+
+From a separate test directory:
+
+```bash
+npx skills@latest add /path/to/malaysia-payment-gateway --skill setup-yourgateway
+```
+
+### Step 8: Open pull request
+
+```bash
+git checkout -b add-setup-yourgateway
+git add setup-yourgateway
+git commit -m "Add setup-yourgateway skill"
+git push origin add-setup-yourgateway
+```
+
+Then open a pull request with:
+
+- Gateway name.
+- What products/features are covered.
+- Official docs source links.
+- Validation result.
+- Any known gaps.

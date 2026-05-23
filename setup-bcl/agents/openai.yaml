@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup BCL"
+  short_description: "Set up BCL Pay flows"
+  default_prompt: "Use $setup-bcl to build or debug BCL Pay payment flows."

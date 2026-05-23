@@ -1,6 +1,6 @@
 ---
-name: xendit-payment-gateway
-description: Build, debug, and explain Xendit payment gateway integrations, including Payments API v3, payment requests, payment tokens, webhooks, refunds, and xenPlatform sub-account routing. Use when implementing checkout, server-side payment collection, saved payment methods, webhook handling, payment status reconciliation, or platform marketplace flows with Xendit.
+name: setup-xendit
+description: Set up, build, debug, and explain Xendit payment gateway integrations, including Payments API v3, payment requests, payment tokens, webhooks, refunds, and xenPlatform sub-account routing. Use when implementing checkout, server-side payment collection, saved payment methods, webhook handling, payment status reconciliation, or platform marketplace flows with Xendit.
 ---
 
 # Xendit Payment Gateway

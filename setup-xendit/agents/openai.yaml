@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Xendit"
+  short_description: "Set up Xendit payment flows"
+  default_prompt: "Use $setup-xendit to design or debug a Xendit payment gateway integration."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup CHIP"
+  short_description: "Set up CHIP Collect payments"
+  default_prompt: "Use $setup-chip to integrate CHIP Collect payments."

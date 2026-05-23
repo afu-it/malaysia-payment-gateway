@@ -1,6 +1,6 @@
 ---
-name: bayarcash
-description: Build, debug, and explain Bayarcash payment integrations using Bayarcash API docs, Web Impian API docs, Bayarcash PHP SDK, WordPress plugins, Boost.space integration links, and Bayarcash MCP server references. Use when working with Bayarcash API v2/v3, payment intents, FPX banks, DuitNow banks or wallets, portals, payment channels, callbacks/webhooks, checksums, transaction lookups, direct debit/e-Mandate flows, enterprise partner merchant/payout APIs, Laravel/PHP SDK usage, WordPress Bayarcash integrations, or Bayarcash MCP tooling.
+name: setup-bayarcash
+description: Set up, build, debug, and explain Bayarcash payment integrations using Bayarcash API docs, Web Impian API docs, Bayarcash PHP SDK, WordPress plugins, Boost.space integration links, and Bayarcash MCP server references. Use when working with Bayarcash API v2/v3, payment intents, FPX banks, DuitNow banks or wallets, portals, payment channels, callbacks/webhooks, checksums, transaction lookups, direct debit/e-Mandate flows, enterprise partner merchant/payout APIs, Laravel/PHP SDK usage, WordPress Bayarcash integrations, or Bayarcash MCP tooling.
 ---
 
 # Bayarcash

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Curlec"
+  short_description: "Set up Curlec payment flows"
+  default_prompt: "Use $setup-curlec to build or debug a Razorpay Curlec payment gateway integration."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Curlec Payment Gateway"
-  short_description: "Build and debug Curlec payment integrations"
-  default_prompt: "Use $curlec-payment-gateway to build or debug a Razorpay Curlec payment gateway integration."

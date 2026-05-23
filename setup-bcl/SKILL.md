@@ -1,6 +1,6 @@
 ---
-name: bcl-payment-gateway
-description: Build, debug, review, and explain BCL payment gateway, BCL Pay, BCL Payment Link, BCL QR Terminal, BCL Forms, Bayarcash-linked setup, portal keys, transactions, webhooks, direct debit forms, client info, payment redirects, and BCL operating procedures using BCL docs.
+name: setup-bcl
+description: Set up, build, debug, review, and explain BCL payment gateway, BCL Pay, BCL Payment Link, BCL QR Terminal, BCL Forms, Bayarcash-linked setup, portal keys, transactions, webhooks, direct debit forms, client info, payment redirects, and BCL operating procedures using BCL docs.
 ---
 
 # BCL Payment Gateway
