@@ -1,10 +1,10 @@
 # Malaysia Payment Gateway Skills
 
-[![Made in Malaysia](https://img.shields.io/badge/Made%20in-Malaysia-cc0001?style=for-the-badge&labelColor=010066)](https://github.com/topics/malaysia)
-[![Works with Codex](https://img.shields.io/badge/Works%20with-Codex-111827?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/codex/)
-[![Agent Skills](https://img.shields.io/badge/Agent-Skills-0f766e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/afu-it/malaysia-payment-gateway)
-[![Security First](https://img.shields.io/badge/Security-First-f59e0b?style=for-the-badge&logo=letsencrypt&logoColor=white)](#production-checklist)
-[![Payment Gateway](https://img.shields.io/badge/Payment-Gateway-2563eb?style=for-the-badge&logo=stripe&logoColor=white)](#skills)
+![Made in Malaysia](https://img.shields.io/badge/Made%20in-Malaysia-red)
+![Works with Codex](https://img.shields.io/badge/Works%20with-Codex-black)
+![Agent Skills](https://img.shields.io/badge/Agent-Skills-blue)
+![Payment Gateway](https://img.shields.io/badge/Payment-Gateway-green)
+![Security First](https://img.shields.io/badge/Security-First-orange)
 
 Agent skills for implementing Malaysian payment gateway integrations with server-side checkout, verified webhooks, and idempotent settlement.
 
