@@ -12,7 +12,7 @@ Made from Malaysia for developers building FPX, DuitNow QR, card, e-wallet, and 
 ## Skills
 
 | Icon | Skill | Use for |
-| --- | --- |
+| --- | --- | --- |
 | 🧭 | `malaysia-payment-gateway` | Gateway-agnostic planning, review, and security checklist |
 | 💳 | `setup-chip` | CHIP Collect checkout, purchases, callbacks, refunds, payment methods |
 | 🏦 | `setup-curlec` | Curlec/Razorpay Orders API, Checkout.js, callbacks, webhooks |
