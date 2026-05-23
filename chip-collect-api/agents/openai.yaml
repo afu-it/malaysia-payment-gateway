@@ -1,0 +1,4 @@
+interface:
+  display_name: "CHIP Collect API"
+  short_description: "Build with CHIP Collect API docs"
+  default_prompt: "Use $chip-collect-api to integrate CHIP Collect payments."

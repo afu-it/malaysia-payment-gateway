@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bayarcash"
+  short_description: "Build Bayarcash integrations"
+  default_prompt: "Use $bayarcash to integrate Bayarcash payments."

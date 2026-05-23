@@ -1,0 +1,4 @@
+interface:
+  display_name: "BCL Payment Gateway"
+  short_description: "Build BCL Pay integrations"
+  default_prompt: "Use $bcl-payment-gateway to build or debug BCL Pay payment flows."

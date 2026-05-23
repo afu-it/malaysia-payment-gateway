@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xendit Payment Gateway"
+  short_description: "Xendit payments and xenPlatform"
+  default_prompt: "Use Xendit payment gateway docs to design or debug an integration."

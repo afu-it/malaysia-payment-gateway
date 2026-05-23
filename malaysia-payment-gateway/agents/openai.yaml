@@ -1,0 +1,4 @@
+interface:
+  display_name: "Malaysia Payment Gateway"
+  short_description: "Implement Malaysia payment gateways"
+  default_prompt: "Use $malaysia-payment-gateway to add a production-ready Malaysia payment gateway integration to this project."
