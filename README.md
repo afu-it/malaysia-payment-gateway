@@ -21,6 +21,7 @@ Made from Malaysia for developers building FPX, DuitNow QR, card, e-wallet, and 
 | `setup-toyyibpay` | toyyibPay categories, bills, callbacks, DuitNow QR, transaction checks |
 | `setup-billplz` | Billplz collections, bills, X Signature callbacks, Payment Order payouts |
 | `setup-fiuu` | Fiuu hosted payment, Seamless Integration, Inpage Checkout, XDK, callbacks |
+| `setup-senangpay` | senangPay hosted/manual checkout, Direct API, callbacks, query status, refunds, plugins, recurring, payout, tokenisation, split settlement |
 
 ## Install
 
@@ -124,6 +125,10 @@ Use $setup-billplz to integrate Billplz bills, X Signature verification, and ide
 
 ```text
 Use $setup-fiuu to integrate Fiuu hosted checkout, Notify URL verification, Callback URL handling, and idempotent settlement.
+```
+
+```text
+Use $setup-senangpay to integrate senangPay hosted checkout, Callback URL verification, query status reconciliation, and idempotent settlement.
 ```
 
 ## Agent Rules

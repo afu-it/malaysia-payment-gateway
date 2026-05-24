@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup SenangPay"
+  short_description: "Set up senangPay payments"
+  default_prompt: "Use $setup-senangpay to integrate senangPay payments."
