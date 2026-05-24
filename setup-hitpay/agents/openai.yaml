@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup HitPay"
+  short_description: "Set up HitPay payments"
+  default_prompt: "Use $setup-hitpay to integrate HitPay payments."

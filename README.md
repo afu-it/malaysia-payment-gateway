@@ -22,6 +22,7 @@ Made from Malaysia for developers building FPX, DuitNow QR, card, e-wallet, and 
 | `setup-billplz` | Billplz collections, bills, X Signature callbacks, Payment Order payouts |
 | `setup-fiuu` | Fiuu hosted payment, Seamless Integration, Inpage Checkout, XDK, callbacks |
 | `setup-senangpay` | senangPay hosted/manual checkout, Direct API, callbacks, query status, refunds, plugins, recurring, payout, tokenisation, split settlement |
+| `setup-hitpay` | HitPay Payment Request API, hosted checkout, Drop-In UI, webhooks, refunds, plugins, recurring billing, payouts |
 
 ## Install
 
@@ -129,6 +130,10 @@ Use $setup-fiuu to integrate Fiuu hosted checkout, Notify URL verification, Call
 
 ```text
 Use $setup-senangpay to integrate senangPay hosted checkout, Callback URL verification, query status reconciliation, and idempotent settlement.
+```
+
+```text
+Use $setup-hitpay to integrate HitPay Payment Request checkout, webhook signature verification, status fallback, and idempotent settlement.
 ```
 
 ## Agent Rules
