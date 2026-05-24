@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Fiuu"
+  short_description: "Set up Fiuu payments"
+  default_prompt: "Use $setup-fiuu to integrate Fiuu payments."

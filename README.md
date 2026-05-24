@@ -20,6 +20,7 @@ Made from Malaysia for developers building FPX, DuitNow QR, card, e-wallet, and 
 | `setup-bcl` | BCL Pay, Payment Link, QR Terminal, Forms, Bayarcash-linked setup |
 | `setup-toyyibpay` | toyyibPay categories, bills, callbacks, DuitNow QR, transaction checks |
 | `setup-billplz` | Billplz collections, bills, X Signature callbacks, Payment Order payouts |
+| `setup-fiuu` | Fiuu hosted payment, Seamless Integration, Inpage Checkout, XDK, callbacks |
 
 ## Install
 
@@ -119,6 +120,10 @@ Use $setup-toyyibpay to integrate toyyibPay bills, callback hash verification, a
 
 ```text
 Use $setup-billplz to integrate Billplz bills, X Signature verification, and idempotent settlement.
+```
+
+```text
+Use $setup-fiuu to integrate Fiuu hosted checkout, Notify URL verification, Callback URL handling, and idempotent settlement.
 ```
 
 ## Agent Rules
