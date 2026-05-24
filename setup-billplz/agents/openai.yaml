@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Billplz"
+  short_description: "Set up Billplz payment gateway integrations"
+  default_prompt: "Use $setup-billplz to integrate Billplz payments with server-side bill creation, X Signature callback verification, and idempotent settlement."

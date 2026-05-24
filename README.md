@@ -13,6 +13,7 @@ Made from Malaysia for developers building FPX, DuitNow QR, card, e-wallet, and 
 | Skill | Use for |
 | --- | --- |
 | `malaysia-payment-gateway` | Gateway-agnostic planning, review, and security checklist |
+| `setup-billplz` | Billplz Bills, Collections, X Signature callbacks, V5 Payment Orders |
 | `setup-chip` | CHIP Collect checkout, purchases, callbacks, refunds, payment methods |
 | `setup-curlec` | Curlec/Razorpay Orders API, Checkout.js, callbacks, webhooks |
 | `setup-xendit` | Xendit Payment Sessions, Payment Requests, webhooks, xenPlatform |
@@ -53,6 +54,12 @@ Install one skill:
 npx skills@latest add afu-it/malaysia-payment-gateway --skill setup-curlec
 ```
 
+Install Billplz skill:
+
+```bash
+npx skills@latest add afu-it/malaysia-payment-gateway --skill setup-billplz
+```
+
 Install globally:
 
 ```bash
@@ -76,7 +83,7 @@ npx skills@latest add afu-it/malaysia-payment-gateway --skill malaysia-payment-g
 2. Install the provider you need:
 
 ```bash
-npx skills@latest add afu-it/malaysia-payment-gateway --skill setup-curlec
+npx skills@latest add afu-it/malaysia-payment-gateway --skill setup-billplz
 ```
 
 3. Ask your agent to inspect your project before coding.
@@ -93,6 +100,10 @@ Use $malaysia-payment-gateway to review my app payment flow and tell me what is 
 
 ```text
 Use $setup-curlec to implement Curlec checkout, callback verification, webhook settlement, and tests in this Next.js project.
+```
+
+```text
+Use $setup-billplz to implement Billplz checkout with server-side bill creation, X Signature callback verification, and idempotent settlement.
 ```
 
 ```text
