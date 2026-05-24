@@ -13,6 +13,8 @@ Read `references/chip-collect-docs.md` before giving factual API guidance or wri
 
 `https://docs.chip-in.asia/chip-collect/overview/introduction`
 
+Read `references/account-setup.md` when user asks how to register, which API keys are needed, where credentials come from, or what dashboard setup is required.
+
 ## Core Facts
 
 - Base URL: `https://gate.chip-in.asia/api/v1/`

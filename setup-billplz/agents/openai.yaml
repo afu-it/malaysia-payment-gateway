@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Billplz"
+  short_description: "Set up Billplz payments"
+  default_prompt: "Use $setup-billplz to build or debug Billplz payment flows."

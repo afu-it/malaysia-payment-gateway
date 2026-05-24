@@ -13,6 +13,7 @@ Use this skill for Xendit integration work. Start with the task shape, then load
 - Webhook receiver, retries, duplicate events, or callback-token validation: read [webhooks.md](references/webhooks.md).
 - Marketplace/platform, sub-accounts, split fees, balance transfer, or `for-user-id` routing: read [xenplatform.md](references/xenplatform.md).
 - First-time project setup, API keys, dashboard prerequisites, or channel activation: read [setup-checklist.md](references/setup-checklist.md).
+- Registration, credentials, env vars, and dashboard setup summary: read [account-setup.md](references/account-setup.md).
 - Endpoint/category lookup and live documentation links: read [source-map.md](references/source-map.md).
 
 ## Integration Rules

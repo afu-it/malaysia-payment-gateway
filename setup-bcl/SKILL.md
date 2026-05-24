@@ -9,6 +9,8 @@ Use this skill for BCL payment gateway and BCL Pay work.
 
 Read `references/bcl-docs.md` before giving factual BCL guidance or writing integration code. It contains source URLs, product boundaries, setup flow, portal key guidance, transaction/webhook notes, and known links from `docs.bcl.my`.
 
+Read `references/account-setup.md` when user asks how to register, which keys are needed, where credentials come from, or what dashboard setup is required.
+
 ## Core Workflow
 
 1. Identify surface: BCL Pay setup, Payment Link, QR Terminal, Forms, client info, transactions, webhook, or direct debit.

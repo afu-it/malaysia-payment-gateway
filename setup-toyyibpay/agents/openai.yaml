@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup toyyibPay"
+  short_description: "Set up toyyibPay payments"
+  default_prompt: "Use $setup-toyyibpay to build or debug toyyibPay payment flows."

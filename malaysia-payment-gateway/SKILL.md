@@ -1,6 +1,6 @@
 ---
 name: malaysia-payment-gateway
-description: Build, debug, review, and explain Malaysia payment gateway integrations. Use when implementing checkout, payment links, hosted payment pages, redirects, callbacks, webhooks, HMAC/signature verification, idempotent settlement, paid-access unlocking, refunds, reconciliation, sandbox/live setup, or provider switching for Malaysian gateways such as CHIP Collect, Curlec/Razorpay, Xendit Malaysia, Bayarcash, BCL Pay, FPX, DuitNow QR, cards, or e-wallets.
+description: Build, debug, review, and explain Malaysia payment gateway integrations. Use when implementing checkout, payment links, hosted payment pages, redirects, callbacks, webhooks, HMAC/signature verification, idempotent settlement, paid-access unlocking, refunds, reconciliation, sandbox/live setup, or provider switching for Malaysian gateways such as CHIP Collect, Curlec/Razorpay, Xendit Malaysia, Bayarcash, BCL Pay, toyyibPay, Billplz, FPX, DuitNow QR, cards, or e-wallets.
 ---
 
 # Malaysia Payment Gateway
@@ -86,7 +86,7 @@ Use project needs to choose:
 - CHIP Collect: Malaysian checkout, FPX/DuitNow/cards/e-wallets, purchase/webhook flow.
 - Curlec/Razorpay: Orders API plus Checkout.js, FPX/redirect methods, Razorpay-style signatures.
 - Xendit Malaysia: Hosted payment sessions or payment requests, FPX and e-wallet channels.
-- Bayarcash/BCL: Malaysian payment portals/API flows; verify exact docs/live dashboard before schemas.
+- Bayarcash/BCL/toyyibPay/Billplz: Malaysian payment portals/API flows; verify exact docs/live dashboard before schemas.
 
 If latest provider API details, channel availability, fees, dashboard paths, or webhook event names matter, check official current docs before coding.
 

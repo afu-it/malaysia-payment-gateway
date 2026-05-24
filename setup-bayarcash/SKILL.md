@@ -13,6 +13,8 @@ Read `references/bayarcash-api.md` before giving factual API guidance or writing
 
 Read `references/bayarcash-api-documentation.md` when exact fields, examples, direct debit, enterprise partner, portal, transaction, or checksum details are needed from the GitHub documentation repo snapshot.
 
+Read `references/account-setup.md` when user asks how to register, which API keys are needed, where credentials come from, or what dashboard setup is required.
+
 ## Core Workflow
 
 1. Identify environment: sandbox or production, API v2 or v3.

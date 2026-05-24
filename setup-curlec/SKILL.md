@@ -11,6 +11,8 @@ Use this skill for Razorpay Curlec payment gateway integration work.
 
 Read `references/curlec-payment-gateway.md` before giving factual API guidance or writing integration code. It contains source URLs, integration flow, endpoint map, signature rules, webhook rules, sandbox notes, and common failure fixes from Curlec docs.
 
+Read `references/account-setup.md` when user asks how to register, which API keys are needed, where credentials come from, or what dashboard setup is required.
+
 ## Core Workflow
 
 1. Identify product surface: Standard Checkout, redirect/FPX flow, Payment Links, Orders/Payments/Refunds API, mobile SDK, plugin, or payout/RazorpayX.

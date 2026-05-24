@@ -18,6 +18,8 @@ Made from Malaysia for developers building FPX, DuitNow QR, card, e-wallet, and 
 | `setup-xendit` | Xendit Payment Sessions, Payment Requests, webhooks, xenPlatform |
 | `setup-bayarcash` | Bayarcash API v2/v3, payment intents, callbacks, checksums |
 | `setup-bcl` | BCL Pay, Payment Link, QR Terminal, Forms, Bayarcash-linked setup |
+| `setup-toyyibpay` | toyyibPay categories, bills, callbacks, DuitNow QR, transaction checks |
+| `setup-billplz` | Billplz collections, bills, X Signature callbacks, Payment Order payouts |
 
 ## Install
 
@@ -111,11 +113,22 @@ Use $setup-bayarcash to integrate Bayarcash payments with checksum/callback veri
 Use $setup-bcl to set up BCL Pay and explain which parts are BCL-owned versus Bayarcash-linked.
 ```
 
+```text
+Use $setup-toyyibpay to integrate toyyibPay bills, callback hash verification, and idempotent settlement.
+```
+
+```text
+Use $setup-billplz to integrate Billplz bills, X Signature verification, and idempotent settlement.
+```
+
 ## Agent Rules
 
 Ask the agent to:
 
 - Read existing code before adding new files.
+- Read provider `references/account-setup.md` before explaining registration, credentials, dashboard setup, or required API keys.
+- Use provider `references/account-setup.md` for framework setup notes, required env vars, and deployment secrets where documented.
+- When referral or invite guidance exists, present it as optional and transparent; never imply it is required unless provider registration actually requires an invite.
 - Keep gateway secrets server-side.
 - Create a local pending payment before provider checkout.
 - Verify webhook/callback signatures.
