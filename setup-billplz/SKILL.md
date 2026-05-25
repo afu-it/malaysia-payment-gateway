@@ -9,7 +9,7 @@ Use this skill for Billplz payment collection, payment form, catalog, and Paymen
 
 ## Source
 
-Read `references/billplz-docs.md` before giving factual API guidance or writing integration code. It contains source URLs, environment bases, API flow, endpoints, X Signature, V5 checksum, Payment Order, status pages, GitHub plugin notes, and settlement/security cautions.
+Read `references/billplz-docs.md` before giving factual API guidance or writing integration code. It contains source URLs, environment bases, API flow, V3/V4/V5 endpoint notes, X Signature, V5 checksum, Payment Order, card tokenization, status pages, GitHub plugin notes, and settlement/security cautions.
 
 Read `references/account-setup.md` when user asks how to register, which API keys are needed, where credentials come from, or what dashboard setup is required.
 
@@ -44,8 +44,23 @@ Read `references/account-setup.md` when user asks how to register, which API key
 - Do not rely on redirect URL alone; browser redirect is not guaranteed.
 - Return HTTP `200` quickly for valid callbacks. Billplz retries failed callbacks and account rank can be degraded for unsuccessful callback attempts.
 - Verify amount, paid/state, Bill ID, Collection ID, and local reference before marking paid.
+- Pull FPX banks or payment gateway availability from Billplz when exact current options matter; static lists can drift.
 - For Payment Order payouts, verify HMAC-SHA512 checksum and use unique `reference_id` to prevent duplicate payout creation.
 - Do not scrape status pages for business logic; use them for operational awareness.
+
+## Completion Criteria
+
+A Billplz checkout integration is done only when:
+
+1. Bill creation runs server-side from an authenticated user flow.
+2. `callback_url` is configured, public over HTTPS, and receives POST payment completion events.
+3. X Signature is verified before any settlement on callback and redirect handlers.
+4. Settlement checks provider, Bill ID, Collection ID, amount, paid/state, and local reference.
+5. Duplicate callback/redirect replay is harmless.
+6. Fake redirect, wrong amount, wrong Bill ID, and invalid signature cannot unlock access.
+7. Sandbox payment has been completed and recorded.
+8. Tests cover invalid signature, duplicate notification, wrong amount/collection, and successful settlement.
+9. Deployment docs include API Secret Key, X Signature Key, Collection ID, callback URL, redirect URL, and sandbox/live separation.
 
 ## Loophole Review Loop
 

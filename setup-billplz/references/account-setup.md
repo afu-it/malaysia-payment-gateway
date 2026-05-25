@@ -17,6 +17,7 @@ Use this file when user asks how to register, what keys are needed, or what dash
 - API Secret Key: used for HTTP Basic Auth as username with blank password.
 - Collection ID: required to create Bills. Get it from Collection page in Billplz account.
 - X Signature Key: used to verify X Signature callback/redirect and V5 checksums.
+- Sandbox credentials and production credentials come from separate accounts/environments; do not reuse one environment's API Secret Key, X Signature Key, Collection ID, bills, callbacks, or Payment Orders in the other.
 - Optional OAuth partner credentials: only for Billplz partners using OAuth 2.0.
 - Payment Order Collection ID: required for Payment Order payout API.
 
@@ -93,10 +94,12 @@ Do not add Billplz secrets as `NEXT_PUBLIC_*`.
 5. Copy X Signature Key from settings page.
 6. Configure public HTTPS `callback_url`.
 7. Configure optional `redirect_url` for better user experience.
-8. Create sandbox Bill and complete test payment.
-9. Verify X Signature, amount, paid/state, Bill ID, Collection ID, and local reference before settlement.
-10. For Payment Order, create Payment Order Collection, verify limit, use unique `reference_id`, and verify V5 checksum.
-11. Move live only after live credentials, live Collection, and live payment gateway settings are ready.
+8. Enable or confirm X Signature callback/redirect mode in the dashboard when available.
+9. Check current payment method or gateway availability in Billplz before hard-coding choices.
+10. Create sandbox Bill and complete test payment.
+11. Verify X Signature, amount, paid/state, Bill ID, Collection ID, and local reference before settlement.
+12. For Payment Order, create Payment Order Collection, verify limit, use unique `reference_id`, and verify V5 checksum.
+13. Move live only after live credentials, live Collection, and live payment gateway settings are ready.
 
 ## Do Not Assume
 
