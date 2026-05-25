@@ -63,6 +63,19 @@ Read `references/source-map.md` when choosing which HitPay docs page applies to 
 - Do not rely on the deprecated payment request `webhook` parameter when dashboard webhook endpoints are the correct current path for centralized webhook management.
 - Verify live payment method availability, activation time, payout schedule, pricing, current incidents, and business verification in the dashboard/docs/status page before claiming production certainty.
 
+## Completion Criteria
+
+A HitPay integration is done only when:
+
+1. Payment Request creation runs server-side with `X-BUSINESS-API-KEY`.
+2. Redirect checkout, Drop-In UI, or embedded QR returns only provider state to the backend; it does not fulfil access directly.
+3. Dashboard webhook endpoint is registered for the correct environment.
+4. Webhook handler verifies `Hitpay-Signature` over the raw request body with the correct webhook salt.
+5. Settlement checks payment request ID, local `reference_number`, amount, currency, status, environment, and merchant account.
+6. Duplicate webhooks, delayed QR completion, and status requery are idempotent.
+7. Tests cover invalid signature, duplicate webhook/event replay, wrong amount/currency/reference, failed/expired status, and successful completed payment.
+8. Deployment docs include `HITPAY_API_KEY`, `HITPAY_WEBHOOK_SALT` or the app's equivalent webhook secret name, redirect URL, webhook URL, and sandbox/live separation.
+
 ## Loophole Review Loop
 
 When asked whether a HitPay strategy is "100% confident", run this loop until no factual gaps remain:

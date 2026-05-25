@@ -146,6 +146,7 @@ HITPAY_ENV=sandbox
 HITPAY_API_URL=https://api.sandbox.hit-pay.com
 HITPAY_API_KEY=your_sandbox_api_key
 HITPAY_WEBHOOK_SALT=your_sandbox_webhook_salt
+HITPAY_WEBHOOK_SECRET=optional_alias_if_the_app_uses_secret_instead_of_salt
 HITPAY_WEBHOOK_SECRET_VERSION=optional_rotation_marker
 HITPAY_REDIRECT_URL=https://example.com/payments/hitpay/return
 HITPAY_WEBHOOK_URL=https://example.com/api/webhooks/hitpay
@@ -159,3 +160,7 @@ HITPAY_API_URL=https://api.hit-pay.com
 ```
 
 and use production API key, production webhook salt, production redirect URL, and production webhook URL.
+
+Prefer `HITPAY_WEBHOOK_SALT` because HitPay docs call the signing value a salt. If an existing app already uses `HITPAY_WEBHOOK_SECRET`, document it as an alias and keep only one source of truth in runtime config.
+
+Verify current sandbox test cards and mock payment method behavior from the HitPay sandbox guide before quoting exact card numbers or OTP values, because provider test data can change.
