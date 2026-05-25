@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Stripe Malaysia"
+  short_description: "Set up Stripe Malaysia payments"
+  default_prompt: "Use $setup-stripe-malaysia to design or debug a Stripe Malaysia payment gateway integration."

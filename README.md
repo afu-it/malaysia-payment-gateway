@@ -23,6 +23,7 @@ Made from Malaysia for developers building FPX, DuitNow QR, card, e-wallet, and 
 | `setup-fiuu` | Fiuu hosted payment, Seamless Integration, Inpage Checkout, XDK, callbacks |
 | `setup-senangpay` | senangPay hosted/manual checkout, Direct API, callbacks, query status, refunds, plugins, recurring, payout, tokenisation, split settlement |
 | `setup-hitpay` | HitPay Payment Request API, hosted checkout, Drop-In UI, webhooks, refunds, plugins, recurring billing, payouts |
+| `setup-stripe-malaysia` | Stripe Malaysia Checkout, Payment Element, webhooks, Stripe CLI, MYR, cards, FPX |
 
 ## Install
 
@@ -134,6 +135,10 @@ Use $setup-senangpay to integrate senangPay hosted checkout, Callback URL verifi
 
 ```text
 Use $setup-hitpay to integrate HitPay Payment Request checkout, webhook signature verification, status fallback, and idempotent settlement.
+```
+
+```text
+Use $setup-stripe-malaysia to integrate Stripe Malaysia checkout, webhook verification, and idempotent settlement.
 ```
 
 ## Agent Rules
