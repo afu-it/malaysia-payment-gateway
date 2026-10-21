@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup BOLD.Pay"
+  short_description: "Set up BOLD.Pay by MACROKIOSK payments"
+  default_prompt: "Use $setup-boldpay to integrate BOLD.Pay payments."

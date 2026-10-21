@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup AsiaPay"
+  short_description: "Set up AsiaPay PayDollar payments"
+  default_prompt: "Use $setup-asiapay to integrate AsiaPay PayDollar payments."

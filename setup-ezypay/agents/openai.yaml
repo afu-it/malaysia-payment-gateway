@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Ezypay"
+  short_description: "Set up Ezypay subscription and card billing"
+  default_prompt: "Use $setup-ezypay to integrate Ezypay billing with signed webhooks."

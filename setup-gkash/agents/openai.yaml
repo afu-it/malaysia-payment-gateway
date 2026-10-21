@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Gkash"
+  short_description: "Set up Gkash payment gateway integrations"
+  default_prompt: "Use $setup-gkash to integrate Gkash payments with server-side host-to-host checkout, SHA512 callback signature verification, status query fallback, and idempotent settlement."

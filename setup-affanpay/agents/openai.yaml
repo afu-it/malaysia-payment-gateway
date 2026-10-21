@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup AffanPay"
+  short_description: "Set up AffanPay payments"
+  default_prompt: "Use $setup-affanpay to integrate AffanPay payments."

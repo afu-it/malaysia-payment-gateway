@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Airwallex"
+  short_description: "Set up Airwallex payments for Malaysian merchants"
+  default_prompt: "Use $setup-airwallex to integrate Airwallex online payments in MYR with server-side Payment Intents, Hosted Payment Page or Drop-in checkout, FPX and DuitNow, x-signature webhook verification, and idempotent settlement."

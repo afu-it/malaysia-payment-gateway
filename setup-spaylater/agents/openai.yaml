@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup SPayLater"
+  short_description: "Set up SPayLater BNPL via ShopeePay"
+  default_prompt: "Use $setup-spaylater to integrate SPayLater payments through ShopeePay."

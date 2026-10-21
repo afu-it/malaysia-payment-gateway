@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Touch 'n Go eWallet"
+  short_description: "Set up Touch 'n Go eWallet payments"
+  default_prompt: "Use $setup-tng-ewallet to integrate Touch 'n Go eWallet payments."

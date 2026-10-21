@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup PayNet"
+  short_description: "Integrate PayNet FPX, DuitNow Pay and DuitNow QR"
+  default_prompt: "Use $setup-paynet to integrate PayNet FPX, DuitNow Pay, RPP DuitNow v3 or DuitNow QR correctly."

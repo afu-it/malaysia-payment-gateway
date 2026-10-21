@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Qashier"
+  short_description: "Set up QashierPay Online checkout"
+  default_prompt: "Use $setup-qashier to integrate QashierPay Online hosted checkout with verified webhooks."

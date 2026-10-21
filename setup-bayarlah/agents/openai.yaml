@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup bayarlah"
+  short_description: "Set up bayarlah DuitNow QR payments"
+  default_prompt: "Use $setup-bayarlah to integrate bayarlah DuitNow QR and WeChat Pay payments."

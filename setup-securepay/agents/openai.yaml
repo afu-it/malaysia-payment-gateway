@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup SecurePay"
+  short_description: "Set up SecurePay Malaysia payments"
+  default_prompt: "Use $setup-securepay to integrate SecurePay payments."

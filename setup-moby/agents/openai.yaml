@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup MOBY"
+  short_description: "Set up MOBY (MobyPay) payments"
+  default_prompt: "Use $setup-moby to integrate MOBY (MobyPay) payments."

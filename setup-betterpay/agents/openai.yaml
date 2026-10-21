@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Betterpay"
+  short_description: "Set up Betterpay payments"
+  default_prompt: "Use $setup-betterpay to integrate Betterpay payments."

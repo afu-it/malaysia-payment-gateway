@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup eGHL"
+  short_description: "Set up eGHL (ADAPTIS) payment gateway integrations"
+  default_prompt: "Use $setup-eghl to integrate eGHL (ADAPTIS) payments with a server-side signed SALE request, HashValue2 callback verification, QUERY requery, and idempotent settlement."

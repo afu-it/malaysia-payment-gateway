@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Omise"
+  short_description: "Set up Omise payments"
+  default_prompt: "Use $setup-omise to integrate Omise payments."

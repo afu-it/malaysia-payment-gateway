@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Adyen"
+  short_description: "Set up Adyen payments"
+  default_prompt: "Use $setup-adyen to integrate Adyen payments for a Malaysian merchant."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Maybank2u Pay"
+  short_description: "Set up Maybank2u Pay online banking payments"
+  default_prompt: "Use $setup-maybank2u-pay to integrate Maybank2u Pay online banking payments."

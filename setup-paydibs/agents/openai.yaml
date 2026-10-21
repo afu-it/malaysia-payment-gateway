@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Paydibs"
+  short_description: "Set up Paydibs payments"
+  default_prompt: "Use $setup-paydibs to integrate Paydibs payments."

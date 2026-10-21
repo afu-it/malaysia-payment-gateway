@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Setel"
+  short_description: "Set up Pay with Setel online payments"
+  default_prompt: "Use $setup-setel to integrate Pay with Setel online checkout, webhooks, and settlement."

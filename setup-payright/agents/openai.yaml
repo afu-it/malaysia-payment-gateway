@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Payright"
+  short_description: "Set up Payright Malaysia FPX payments"
+  default_prompt: "Use $setup-payright to integrate Payright payments."

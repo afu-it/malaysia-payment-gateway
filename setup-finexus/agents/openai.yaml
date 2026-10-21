@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Finexus"
+  short_description: "Set up Finexus PayMaster payments"
+  default_prompt: "Use $setup-finexus to integrate Finexus PayMaster payments."

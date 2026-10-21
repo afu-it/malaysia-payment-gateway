@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Fasspay"
+  short_description: "Set up Fasspay (Soft Space) payments"
+  default_prompt: "Use $setup-fasspay to integrate Fasspay (Soft Space) payments."

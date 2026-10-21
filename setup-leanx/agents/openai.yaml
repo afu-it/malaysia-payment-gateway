@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup LeanX"
+  short_description: "Set up LeanX (Lean.x) payment and payout integrations"
+  default_prompt: "Use $setup-leanx to integrate LeanX payments with server-side bill creation, JWT callback verification using the Hash Key, transaction status requery, and idempotent settlement."

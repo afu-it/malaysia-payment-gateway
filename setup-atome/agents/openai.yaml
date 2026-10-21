@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Atome"
+  short_description: "Set up Atome BNPL payments"
+  default_prompt: "Use $setup-atome to integrate Atome Buy Now Pay Later payments."

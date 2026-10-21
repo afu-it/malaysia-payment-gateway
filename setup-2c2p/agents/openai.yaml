@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup 2C2P"
+  short_description: "Set up 2C2P payments"
+  default_prompt: "Use $setup-2c2p to integrate 2C2P payments."

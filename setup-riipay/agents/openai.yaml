@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Riipay"
+  short_description: "Set up Riipay BNPL payments"
+  default_prompt: "Use $setup-riipay to integrate Riipay 0% instalment payments."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Revenue Monster"
+  short_description: "Set up Revenue Monster payments"
+  default_prompt: "Use $setup-revenue-monster to integrate Revenue Monster payments."

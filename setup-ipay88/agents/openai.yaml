@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup iPay88"
+  short_description: "Set up iPay88 Malaysia payments"
+  default_prompt: "Use $setup-ipay88 to integrate iPay88 Malaysia payments with HMAC-SHA512 signatures, backend post and re-query."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Paydee"
+  short_description: "Set up Paydee payments"
+  default_prompt: "Use $setup-paydee to integrate Paydee payments."

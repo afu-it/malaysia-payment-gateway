@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup LekirPay"
+  short_description: "Set up LekirPay payments"
+  default_prompt: "Use $setup-lekirpay to integrate LekirPay payments."

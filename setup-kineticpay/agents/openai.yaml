@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup KineticPay"
+  short_description: "Set up KineticPay FPX payments"
+  default_prompt: "Use $setup-kineticpay to integrate KineticPay FPX payments."

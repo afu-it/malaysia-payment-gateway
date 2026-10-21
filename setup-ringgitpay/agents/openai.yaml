@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup RinggitPay"
+  short_description: "Set up RinggitPay payments"
+  default_prompt: "Use $setup-ringgitpay to integrate RinggitPay payments."

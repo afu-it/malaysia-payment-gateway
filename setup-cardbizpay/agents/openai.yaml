@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup CardBizPay"
+  short_description: "Set up CardBizPay payments"
+  default_prompt: "Use $setup-cardbizpay to integrate CardBizPay payments."

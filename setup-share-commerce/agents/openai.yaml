@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Share Commerce"
+  short_description: "Set up Share Commerce payments"
+  default_prompt: "Use $setup-share-commerce to integrate Share Commerce payments."

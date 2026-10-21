@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup ShopeePay Gateway"
+  short_description: "Set up direct ShopeePay payments"
+  default_prompt: "Use $setup-shopeepay-gateway to integrate direct ShopeePay merchant payments."

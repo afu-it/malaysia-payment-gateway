@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup OxPay"
+  short_description: "Set up OxPay Malaysia payments"
+  default_prompt: "Use $setup-oxpay to integrate OxPay payments."

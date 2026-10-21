@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Kiple"
+  short_description: "Set up Kiple (kiplePay) payments"
+  default_prompt: "Use $setup-kiple to integrate Kiple payments."

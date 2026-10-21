@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Payhalal"
+  short_description: "Set up Payhalal payments"
+  default_prompt: "Use $setup-payhalal to integrate Payhalal payments."

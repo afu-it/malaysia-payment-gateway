@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup AhaPay"
+  short_description: "Set up AhaPay BNPL payments"
+  default_prompt: "Use $setup-ahapay to integrate AhaPay Buy Now Pay Later payments."

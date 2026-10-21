@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Herepay"
+  short_description: "Set up Herepay FPX payments"
+  default_prompt: "Use $setup-herepay to integrate Herepay FPX payments."

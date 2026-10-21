@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup PayCools"
+  short_description: "Set up PayCools payments"
+  default_prompt: "Use $setup-paycools to integrate PayCools payments."

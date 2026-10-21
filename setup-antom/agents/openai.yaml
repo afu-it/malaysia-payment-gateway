@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Antom"
+  short_description: "Set up Antom (Ant International) payments"
+  default_prompt: "Use $setup-antom to integrate Antom One-time Payments for a Malaysian merchant."

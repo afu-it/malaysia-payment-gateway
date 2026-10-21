@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup M1Pay"
+  short_description: "Set up M1Pay payments"
+  default_prompt: "Use $setup-m1pay to integrate M1Pay payments."

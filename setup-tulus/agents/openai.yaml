@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Tulus"
+  short_description: "Set up Tulus (SnapNPay) payments"
+  default_prompt: "Use $setup-tulus to integrate Tulus (SnapNPay) checkout, signed callbacks, and report-based reconciliation."

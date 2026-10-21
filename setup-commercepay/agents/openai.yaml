@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup CommercePay"
+  short_description: "Set up CommercePay payments"
+  default_prompt: "Use $setup-commercepay to integrate CommercePay payments."

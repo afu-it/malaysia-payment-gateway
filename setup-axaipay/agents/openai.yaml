@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Axaipay"
+  short_description: "Set up Axaipay payments"
+  default_prompt: "Use $setup-axaipay to integrate Axaipay payments."

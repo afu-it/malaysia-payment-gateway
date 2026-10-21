@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Luminarix"
+  short_description: "Set up Luminarix payments"
+  default_prompt: "Use $setup-luminarix to integrate Luminarix payments."

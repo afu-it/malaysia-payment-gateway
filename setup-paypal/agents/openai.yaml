@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup PayPal"
+  short_description: "Set up PayPal payments for Malaysia"
+  default_prompt: "Use $setup-paypal to integrate PayPal payments."

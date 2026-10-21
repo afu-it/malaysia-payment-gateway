@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup GoMobi"
+  short_description: "Set up GoMobi (Mobi) payments"
+  default_prompt: "Use $setup-gomobi to integrate GoMobi (Mobi) payments."

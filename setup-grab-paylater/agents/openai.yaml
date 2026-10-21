@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup GrabPay & PayLater"
+  short_description: "Set up GrabPay and PayLater by Grab online checkout"
+  default_prompt: "Use $setup-grab-paylater to integrate GrabPay and PayLater by Grab online checkout."

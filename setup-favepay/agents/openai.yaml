@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup FavePay"
+  short_description: "Set up FavePay Omni (FPO) payments"
+  default_prompt: "Use $setup-favepay to integrate FavePay Omni payments."
